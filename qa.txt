@@ -1,13 +1,16 @@
 ﻿XXYourComputableMyIGNameHere : Validation Results
 =========================================
 
-err = 1, warn = 0, info = 0
+err = 1, warn = 1, info = 0
 IG Publisher Version: 1.1.77
-Generated Mon Jul 26 20:08:08 UTC 2021. FHIR version 4.0.1 for xxexample.fhir.uv.myig#0.1.0-test (canonical = http://xxsomewhere.org/fhir/myig)
+Generated Mon Jul 26 20:09:21 UTC 2021. FHIR version 4.0.1 for xxexample.fhir.uv.myig#0.1.0-test (canonical = http://xxsomewhere.org/fhir/myig)
 
  Build Errors : 0 / 0 / 0
- /github/workspace/input/myig : 1 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-AllergyModel : 1 / 1 / 1
+ /github/workspace/input/myig : 0 / 0 / 1
 </table>
 == n/a ==
+== /github/workspace/fsh-generated/resources/StructureDefinition-AllergyModel.json ==
+ERROR: StructureDefinition/AllergyModel: StructureDefinition.baseDefinition: Canonical URL 'http://hl7.org/fhir/StructureDefinition/Base' does not resolve
+WARNING: StructureDefinition/AllergyModel: StructureDefinition: Unable to find base http://hl7.org/fhir/StructureDefinition/Base for StructureDefinition, so can't check the differential
 == /github/workspace/input/myig.xml ==
-ERROR: ImplementationGuide/xxexample.fhir.uv.myig: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide)
