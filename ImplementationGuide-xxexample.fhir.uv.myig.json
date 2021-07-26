@@ -11,7 +11,7 @@
   "title": "xxYour User Friendly Name for MyIG Here",
   "status": "draft",
   "experimental": false,
-  "date": "2021-07-26T20:09:16+00:00",
+  "date": "2021-07-26T20:35:11+00:00",
   "publisher": "xxxYour Work Group",
   "contact": [
     {
@@ -341,6 +341,19 @@
         },
         "name": "Allergy Logical Model",
         "description": "Allergy information model"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/FoodAllergy"
+        },
+        "name": "Food Allergy",
+        "description": "Food Allergy profile"
       }
     ],
     "page": {
