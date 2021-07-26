@@ -5,5 +5,12 @@
     "url": "http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig",
     "version": "0.1.0-test",
     "name": "XXYourComputableMyIGNameHere"
+  },
+  {
+    "id": "AllergyModel",
+    "type": "StructureDefinition",
+    "url": "http://xxsomewhere.org/fhir/myig/StructureDefinition/AllergyModel",
+    "version": "0.1.0-test",
+    "name": "AllergyModel"
   }
 ]

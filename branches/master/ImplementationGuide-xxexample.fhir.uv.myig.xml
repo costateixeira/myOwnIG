@@ -12,7 +12,7 @@
   <title value="xxYour User Friendly Name for MyIG Here"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-07-26T20:08:04+00:00"/>
+  <date value="2021-07-26T20:09:16+00:00"/>
   <publisher value="xxxYour Work Group"/>
   <contact>
     <telecom>
@@ -207,6 +207,16 @@
         <valueString value="true"/>
       </extension>
     </extension>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/AllergyModel"/>
+      </reference>
+      <name value="Allergy Logical Model"/>
+      <description value="Allergy information model"/>
+    </resource>
     <page>
       <nameUrl value="toc.html"/>
       <title value="Table of Contents"/>
